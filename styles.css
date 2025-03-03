@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb
+    color:#333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #002147;
+    color: white;
+}
+
+.logo {
+    height: 80px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: url('uni.jpg') no-repeat center center/cover;
+    color: white;
+    position: relative;
+    z-index: 5;
+}
+
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.btn1 {
+    background: #ff4081;
+    color: white;
+    padding: 10px 100px;
+    text-decoration: none;
+    border-radius: 100px;
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+}
+
+.btn2 {
+    font-weight: bold;
+    background: #f4f4f4;
+    color: black;
+    padding: 10px 50px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.apply-section h2 {
+    font-size: 50px;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.card {
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.card-content{
+    padding: 30px 30px;
+    line-height: 1.2;
+}
+
+.card-content h1{
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.card-content p{
+    font-size: 17px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.card-content .read-more{
+    font-size: 17px;
+    text-decoration: none;
+    color: #e0222e;
+    font-weight: bold;
+}
+
+.stats, .news-section {
+    padding: 50px 20px;
+    text-align: center;
+    
+}
+
+
+.news-items {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.stats div {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #002147;
+    color: white;
+}
