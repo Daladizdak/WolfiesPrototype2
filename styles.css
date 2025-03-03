@@ -1,42 +1,58 @@
-*{
+/* Global Styles - Applies to all elements */
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
+
+
+/* Body Styling - Sets default font, background, and text color */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f7fb
-    color:#333;
+    background-color: #f4f7fb; /* Light grayish-blue background */
+    color: #333; /* Dark gray text */
 }
 
+
+
+/* Header Styling - Navigation Bar */
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Aligns logo and nav to opposite sides */
     align-items: center;
     padding: 20px;
-    background: #002147;
+    background: #002147; /* Dark blue background */
     color: white;
 }
 
+
+
+/* Logo Styling */
 .logo {
     height: 80px;
 }
 
+
+
+/* Navigation Menu */
 nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 20px; /* Space between menu items */
 }
 
 
+
+/* Navigation Links */
 nav ul a {
     color: white;
-    text-decoration: none;
+    text-decoration: none; /* Removes underlines */
 }
 
 
 
+/* Hero Section - Main Banner */
 .hero {
     text-align: center;
     padding: 120px 20px;
@@ -47,18 +63,26 @@ nav ul a {
 }
 
 
+
+/* Hero Section - Main Heading */
 .hero h1 {
     font-size: 50px;
     font-weight: bold;
 }
 
+
+
+/* Hero Section - Subtext */
 .hero p {
     font-size: 22px;
     margin-top: 10px;
 }
 
+
+
+/* Primary Button Styling */
 .btn1 {
-    background: #ff4081;
+    background: #ff4081; /* Pink background */
     color: white;
     padding: 10px 100px;
     text-decoration: none;
@@ -68,6 +92,9 @@ nav ul a {
     margin-top: 10px;
 }
 
+
+
+/* Secondary Button Styling */
 .btn2 {
     font-weight: bold;
     background: #f4f4f4;
@@ -77,20 +104,29 @@ nav ul a {
     border-radius: 10px;
 }
 
+
+
+/* Apply Section Styling */
 .apply-section h2 {
     font-size: 50px;
     padding: 50px 20px;
     text-align: center;
 }
 
+
+
+/* Card Container - Holds Multiple Cards */
 .card-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 25px; /* Space between cards */
     margin-top: 50px;
 }
 
+
+
+/* Individual Card Styling */
 .card {
     width: 325px;
     background-color: #f0f0f0;
@@ -99,43 +135,62 @@ nav ul a {
     cursor: pointer;
 }
 
-.card-content{
+
+
+/* Card Content Styling */
+.card-content {
     padding: 30px 30px;
     line-height: 1.2;
 }
 
-.card-content h1{
+
+
+/* Card Title */
+.card-content h1 {
     font-size: 35px;
     margin-bottom: 10px;
     color: #000;
 }
 
-.card-content p{
+
+
+/* Card Description */
+.card-content p {
     font-size: 17px;
     margin-bottom: 20px;
     color: #666;
 }
 
-.card-content .read-more{
+
+
+/* Read More Link */
+.card-content .read-more {
     font-size: 17px;
     text-decoration: none;
-    color: #e0222e;
+    color: #e0222e; /* Red text */
     font-weight: bold;
 }
 
+
+
+/* Statistics & News Sections */
 .stats, .news-section {
     padding: 50px 20px;
     text-align: center;
-    
 }
 
 
+
+/* News Items Layout */
 .news-items {
     display: flex;
     justify-content: center;
     gap: 50px;
 }
 
+
+
+/* Statistics Boxes */
 .stats div {
     display: inline-block;
     margin: 10px;
@@ -144,9 +199,12 @@ nav ul a {
     border-radius: 5px;
 }
 
+
+
+/* Footer Styling */
 footer {
     text-align: center;
     padding: 20px;
-    background: #002147;
+    background: #002147; /* Dark blue */
     color: white;
 }
